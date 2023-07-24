@@ -164,19 +164,23 @@ main{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+   
     height: 100vh;
-    width: fit-content;
+    width: 100%;
     
 }
 .logo-container{
-    height: 2vh;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
     text-align: center;
 }
 .logo{
+    
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 20vw;
+    width: 50%;
 }
 .section-one{
     width: max-content;
@@ -202,10 +206,12 @@ height: 90vh;
 }
 .order-text{
     text-align: center;
+    padding: 5px;
     font-weight: 100;
     
 }
 .ordernumber-text{
+    padding: 10px;
     font-size: smaller;
     text-transform: lowercase;
     text-align: center;
@@ -222,12 +228,17 @@ height: 90vh;
 }
 .shipaddy-container{
     text-align: center;
+    font-size: smaller;
+   
 }
 .shipaddy-text{
     text-transform: uppercase;
+    font-size: smaller;
+
 }
 .bill-text{
     text-transform: uppercase;
+    font-size: smaller;
 }
 .payment-text{
     text-transform: uppercase;
@@ -240,9 +251,11 @@ height: 90vh;
 
 .billaddy-container{
     text-align: center;
+    font-size: smaller;
 }
 .payment-container{
     text-align: center;
+    font-size: smaller;
 }
 .youritems-heading{
     text-align: center;
@@ -250,6 +263,7 @@ height: 90vh;
 .section-three{
     height: 100vh;
     margin-bottom: 10%;
+    
 }
 .photo-container{
     width: 100vw;
@@ -262,6 +276,7 @@ height: 90vh;
 }
 .description-container{
     text-align: center;
+    font-size: smaller;
 }
 .cost-container{
     display: flex;
@@ -269,6 +284,7 @@ height: 90vh;
 }
 .list{
     list-style: none;
+  
 }
 .list-two{
     list-style:none;
@@ -294,11 +310,12 @@ height: 90vh;
 .links-container{
     display: flex;
     justify-content: space-between;
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    margin: 10px;
     padding: 20px;
     text-align: center;
-    
+    font-size: smaller;
+    text-decoration: underline;
+    cursor: pointer;
     
 }
 .address{
