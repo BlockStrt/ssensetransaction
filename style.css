@@ -1,0 +1,317 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+    height: 100%;
+    width: 100vw;
+    background-color:rgb(243, 240, 240);
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:max-content;
+    width:65vw;
+    background-color: rgb(251, 250, 250);
+}
+.logo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+}
+
+.shipping-title{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+   font-size: 1.2rem;
+   background-color: beige;
+   }
+   .section-two{
+   height: 80vh;
+   width: 100%;
+   }
+   .order-container{
+       width: 100%;
+       text-transform: uppercase;
+   }
+   .order-text{
+       text-align: center;
+       font-weight: 100;
+       width: 100%;
+       
+       
+   }
+   .ordernumber-text{
+       text-transform: lowercase;
+       text-align: center;
+       
+   }
+   
+   .track-button{
+       text-align: center;
+   }
+   .order-summary{
+       text-align: center;
+       text-transform: uppercase;
+   }
+   .hr-line{
+       width: 30px;
+   }
+   .shipaddy-container{
+       text-align: center;
+   }
+   .shipaddy-text{
+       text-transform: uppercase;
+   }
+   .bill-text{
+       text-transform: uppercase;
+   }
+   .payment-text{
+       text-transform: uppercase;
+   
+   }
+   .youritems-heading{
+       text-transform: uppercase;
+   
+   }
+   
+   .billaddy-container{
+       text-align: center;
+   }
+   .payment-container{
+       text-align: center;
+   }
+   .youritems-heading{
+       text-align: center;
+   }
+   .section-three{
+       height: 100vh;
+   }
+   .photo-container{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       
+   }
+   .photo{
+       width: 20vw;
+   }
+   .description-container{
+       text-align: center;
+   }
+   .cost-container{
+       display: flex;
+       justify-content: space-around;
+   }
+   .list{
+       list-style: none;
+   }
+   .list-two{
+       list-style:none;
+   }
+   .total-container{
+       width:100%;
+       text-align: center;
+
+       
+   }.total-inner{
+       width: 100%;
+       text-align: center;;
+       justify-content: space-around;
+       display: flex;
+   }
+   .thanks{
+       margin-top: 5px;
+       width: 20vw;
+       padding: 20px;
+   }
+   .thanks-email{
+       text-align: center;
+   }
+   .links-container{
+       display: flex;
+       justify-content: space-between;
+       /* padding-left: 20px;
+       padding-right: 20px; */
+       padding: 20px;
+       text-align: center;
+       
+       
+   }
+   .address{
+       text-align: center;
+       margin-bottom: 20px;
+       padding: 20px;
+   }
+   .track-package{
+       width: 20vw;
+   }
+
+ 
+
+ 
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    main{
+    display:grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: fit-content;
+    
+}
+.logo-container{
+    height: 2vh;
+    width: 100vw;
+    text-align: center;
+}
+.logo{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 20vw;
+}
+.section-one{
+    width: max-content;
+    height: 5vh;
+    text-align: center;
+    margin-top: 5px;
+}
+.shipping-title{
+ width: 100vw;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ text-align: center;
+font-size: 1.2rem;
+background-color: beige;
+}
+.section-two{
+height: 90vh;
+}
+.order-container{
+    width: 100vw;
+    text-transform: uppercase;
+}
+.order-text{
+    text-align: center;
+    font-weight: 100;
+    
+}
+.ordernumber-text{
+    font-size: smaller;
+    text-transform: lowercase;
+    text-align: center;
+}
+.track-button{
+    text-align: center;
+}
+.order-summary{
+    text-align: center;
+    text-transform: uppercase;
+}
+.hr-line{
+    width: 30px;
+}
+.shipaddy-container{
+    text-align: center;
+}
+.shipaddy-text{
+    text-transform: uppercase;
+}
+.bill-text{
+    text-transform: uppercase;
+}
+.payment-text{
+    text-transform: uppercase;
+
+}
+.youritems-heading{
+    text-transform: uppercase;
+
+}
+
+.billaddy-container{
+    text-align: center;
+}
+.payment-container{
+    text-align: center;
+}
+.youritems-heading{
+    text-align: center;
+}
+.section-three{
+    height: 100vh;
+    margin-bottom: 10%;
+}
+.photo-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.photo{
+    width: 50vw;
+}
+.description-container{
+    text-align: center;
+}
+.cost-container{
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    list-style: none;
+}
+.list-two{
+    list-style:none;
+}
+.total-container{
+    text-align: center;
+    
+}.total-inner{
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+}
+.thanks{
+    margin-top: 5px;
+    width: 55vw;
+    padding: 20px;
+}
+.thanks-email{
+    text-align: center;
+}
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+.address{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.track-package{
+    width: 50vw;
+}
+.section-four{
+    width: 100%;
+    
+    height: 20vh;
+}
+}
